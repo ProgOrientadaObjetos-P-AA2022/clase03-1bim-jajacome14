@@ -7,13 +7,13 @@ package paqueteuno;
 
 
 public class Pelicula {
-    private int version;
+    public int version;
     
-    void establecerVersion(int v){
+  public  void establecerVersion(int v){
         version = v;
     }
     
-    int obtenerVersion(){
+   public  int obtenerVersion(){
         return version;
     }
     

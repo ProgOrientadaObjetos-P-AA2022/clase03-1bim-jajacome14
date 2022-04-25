@@ -6,7 +6,7 @@
 package manejoclases02;
 
 public class Ejecutable {
-    public static void main(String[] args) {
+    public  static void main(String[] args) {
         // Se crea un objeto
         Hospital hospital = new Hospital();
         

@@ -15,7 +15,7 @@ public class Ejecutable03 {
     
         Hospital h1 = new Hospital();
         Hospital h2 = new Hospital();
-        Hospital h3 = new Hospital();
+       // Hospital h3 = new Hospital();
         
         h1.establecerNombre("Vaca Ortíz");
         h2.establecerNombre("Militar");

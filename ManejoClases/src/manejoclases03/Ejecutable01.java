@@ -18,6 +18,7 @@ public class Ejecutable01 {
         hospital.establecerNombre(nHospital);
         
         // hospital.numeroCamas = 100;
+        
         hospital.establecerNumeroCamas(100);
         // hospital.presupuesto = 560340.43;
         hospital.establecerPresupuesto(5603.43);
@@ -27,8 +28,14 @@ public class Ejecutable01 {
         // objeto hospital
         
         // System.out.printf("%s - %d - %.2f\n", hospital.nombre,
-        //         hospital.numeroCamas, hospital.presupuesto);
+        //         hospital.numeroCamas, hospital.presupuesto);       
+        System.out.printf("%s - %d - %.2f\n", hospital.obtenerNombre(),
+                hospital.obtenerNumeroCamas(), hospital.obtenerPresupuesto());
         
+        hospital.establecerNumeroCamas(200);
+        
+         System.out.println("-----------------------------");
+         
         System.out.printf("%s - %d - %.2f\n", hospital.obtenerNombre(),
                 hospital.obtenerNumeroCamas(), hospital.obtenerPresupuesto());
         
